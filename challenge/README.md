@@ -1,5 +1,4 @@
-# Weather-Tracker
-T# 09 Servers and APIs: Weather Dashboard
+# 09 Servers and APIs: Weather Dashboard
 
 ## Your Task
 
@@ -167,4 +166,3 @@ You are required to submit BOTH of the following for review:
 
 ---
 © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-his is for tracking weather

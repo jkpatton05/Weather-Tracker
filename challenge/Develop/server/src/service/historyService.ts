@@ -5,6 +5,15 @@
 
 // TODO: Complete the HistoryService class
 class HistoryService {
+  saveCity(city: any) {
+    throw new Error('Method not implemented.');
+  }
+  getSearchHistory() {
+    throw new Error('Method not implemented.');
+  }
+  deleteCity(id: string) {
+    throw new Error('Method not implemented.');
+  }
   // TODO: Define a read method that reads from the searchHistory.json file
   // private async read() {}
   // TODO: Define a write method that writes the updated cities array to the searchHistory.json file

@@ -1,10 +1,5 @@
 import { City } from '../models/city'; // Import the City class from the appropriate file
-// TODO: Define a City class with name and id properties
-{
-  constructor(name: string, id: string) { }
-}
 
-// TODO: Complete the HistoryService class
 class HistoryService {
   saveCity(_city: any) {
     throw new Error('Method not implemented.');

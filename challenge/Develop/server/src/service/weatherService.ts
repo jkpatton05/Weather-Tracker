@@ -29,7 +29,6 @@ class WeatherService {
     return this.destructureLocationData(data);
   }
   // TODO: Create destructureLocationData method
-  // TODO: Remove the unused buildGeocodeQuery method
   private destructureLocationData(data: any): Coordinates {
     return {
       latitude: data.coord.lat,

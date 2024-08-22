@@ -1,4 +1,12 @@
-import { City } from '../models/city'; // Import the City class from the appropriate file
+// // TODO: Define a City class with name and id properties
+class City {
+  name: string;
+  id: string;
+  constructor(name: string, id: string) {
+    this.name = name;
+    this.id = id;
+  }
+}
 
 class HistoryService {
   saveCity(_city: any) {

@@ -58,8 +58,18 @@ h1 {
      ========================================================================== */
 /**
    * 1. Add the correct box sizing in Firefox.*/
-box-sizing: border-box;
-width: 100%;
+body {
+  body {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 /* 2. Show the overflow in Edge and IE.
    */
@@ -74,8 +84,8 @@ hr {
 
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.*/
-font-family: monospace,
-monospace;
+font-family:monospace,
+monospace
 
 /* 2. Correct the odd `em` font sizing in all browsers.*/
 pre {
@@ -96,7 +106,8 @@ a {
 
 /**
    * 1. Remove the bottom border in Chrome 57-*/
-border: none;
+
+border:none
 
 /* 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
    */
@@ -118,8 +129,8 @@ strong {
 
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.*/
-font-family: monospace,
-monospace;
+font-family:monospace,
+monospace
 
 /* 2. Correct the odd `em` font sizing in all browsers.
    */
@@ -172,7 +183,7 @@ img {
      ========================================================================== */
 /**
    * 1. Change the font styles in all browsers.*/
-font-family: inherit;
+font-family:inherit
 
 /* 2. Remove the margin in Firefox and Safari.
    */
@@ -193,7 +204,7 @@ textarea {
 
 /**
    * Show the overflow in IE.*/
-overflow: visible;
+overflow:visible
 
 /* 1. Show the overflow in Edge.
    */
@@ -205,7 +216,7 @@ input {
 
 /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.*/
-text-transform: none;
+text-transform:none
 
 /* 1. Remove the inheritance of text transform in Firefox.
    */
@@ -256,7 +267,7 @@ fieldset {
 
 /**
    * 1. Correct the text wrapping in Edge and IE.*/
-white-space: normal;
+white-space:normal
 
 /* 2. Correct the color inheritance from `fieldset` elements in IE.*/
 legend {
@@ -297,7 +308,7 @@ textarea {
 
 /**
    * 1. Add the correct box sizing in IE 10.*/
-box-sizing: border-box;
+box-sizing:border-box
 
 /* 2. Remove the padding in IE 10.
    */
@@ -319,7 +330,7 @@ box-sizing: border-box;
 
 /**
    * 1. Correct the odd appearance in Chrome and Safari.*/
-appearance: none;
+appearance:none
 
 /* 2. Correct the outline style in Safari.
    */
@@ -335,12 +346,13 @@ appearance: none;
    * Remove the inner padding in Chrome and Safari on macOS.
    */
 [type='search']::-webkit-search-decoration {
-  -webkit-appearance: none;
+  -webkit-appearance: none
 }
+
 
 /**
    * 1. Correct the inability to style clickable types in iOS and Safari.*/
--webkit-appearance: button;
+-webkit-appearance:button
 
 /* 2. Change font properties to `inherit` in Safari.
    */
